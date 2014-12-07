@@ -8,6 +8,11 @@
 class FZframe{
     protected $controller;
     public function __construct($config){
-        echo $config;
+        
+    }
+    
+    public function start(){
+        $module = $_GET['m'];
+        $controller = $_GET['c'];
     }
 }
