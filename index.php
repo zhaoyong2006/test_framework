@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 include 'framework/start.php';
-define(CONFIG, 'config/main.php' );
+define('CONFIG', 'config/main.php' );
 
 $frameWork = new SZframe(CONFIG);
 

@@ -5,14 +5,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-class FZframe{
+class SZframe{
     protected $controller;
     public function __construct($config){
-        
+    	echo $config;
     }
     
     public function start(){
-        $module = $_GET['m'];
-        $controller = $_GET['c'];
-    }
+        //$module = $_GET['m'];
+		//$controller = $_GET['c'];
+		return true;
+	}
 }
